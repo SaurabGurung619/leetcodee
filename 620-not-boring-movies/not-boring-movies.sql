@@ -1,0 +1,8 @@
+# Write your MySQL query statement below
+SELECT 
+id,
+movie,
+description,
+rating from Cinema 
+where description!= "Boring" and id % 2 = 1
+order by rating desc;
