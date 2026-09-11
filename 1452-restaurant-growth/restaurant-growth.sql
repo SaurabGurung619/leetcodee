@@ -11,4 +11,4 @@ rows between 6 preceding and current row ) as amount,
 round(avg(daily_amount) over (order by visited_on 
 rows between 6 preceding and current row),2)as average_amount
 from daily 
-limit 100000 offset 6;
+limit 100 offset 6;
